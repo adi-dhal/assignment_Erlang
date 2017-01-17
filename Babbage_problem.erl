@@ -1,4 +1,4 @@
--module(solution1).
+-module(Babbage_problem).
 -export([main/0]).
 babbage(N,E) when N*N rem 1000000 == 269696 ->
 	io:fwrite("~p",[N]);
