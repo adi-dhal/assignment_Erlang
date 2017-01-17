@@ -1,4 +1,4 @@
--module(catalin).
+-module(catalin_number).
 -compile(export_all).
 mul(N,D,S,S)-> 
 	N2=N*(S+S),
